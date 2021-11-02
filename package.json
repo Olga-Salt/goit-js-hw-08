@@ -2,7 +2,7 @@
   "name": "goit-js-hw-08",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "indexnpm.js",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
@@ -26,6 +26,8 @@
     "sass": "^1.43.3"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.1",
+    "lodash.throttle": "^4.1.1",
     "simplelightbox": "^2.9.0",
     "src": "^1.1.2"
   }
